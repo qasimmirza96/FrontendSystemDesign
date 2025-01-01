@@ -25,7 +25,7 @@ const END = getArg("end", `${YEAR}-12-31`);
 const MIN_COMMITS = parseInt(getArg("min", "2"));
 const MAX_COMMITS = parseInt(getArg("max", "10"));
 
-const SKIP_PERCENT = parseInt(getArg("skip", "0"));
+const SKIP_PERCENT = parseInt(getArg("skip", "20"));
 
 const WEEKEND_MODE = hasFlag("weekend");
 
