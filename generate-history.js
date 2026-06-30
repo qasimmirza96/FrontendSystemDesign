@@ -142,6 +142,6 @@ console.log("=================================");
 console.log(`Year           : ${YEAR}`);
 console.log(`Start          : ${START}`);
 console.log(`End            : ${END}`);
-console.log(`Skipped Days   : ${skippedDays}`);
+console.log(`Skipped Days   : ${skippedDays}`); 
 console.log(`Total Commits  : ${commitsCreated}`);
 console.log("=================================");
